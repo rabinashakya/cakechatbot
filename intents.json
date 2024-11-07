@@ -1,0 +1,1108 @@
+[
+    {
+      "input": "How to bake a chocolate cake?",
+      "output": {
+        "recipe_name": "Chocolate Cake",
+        "ingredients": [
+          {"ingredient": "flour", "quantity": "1 1/2 cups"},
+          {"ingredient": "cocoa powder", "quantity": "1/2 cup"},
+          {"ingredient": "baking soda", "quantity": "1 tsp"},
+          {"ingredient": "sugar", "quantity": "1 cup"},
+          {"ingredient": "butter", "quantity": "1/2 cup"},
+          {"ingredient": "milk", "quantity": "1 cup"},
+          {"ingredient": "eggs", "quantity": "2"}
+        ],
+        "instructions": [
+          "Preheat the oven to 350°F (175°C).",
+          "Grease and flour a 9-inch round cake pan.",
+          "In a medium bowl, mix together the dry ingredients (flour, cocoa powder, baking soda, and sugar).",
+          "In a separate bowl, beat the eggs and mix with butter, milk, and vanilla extract.",
+          "Gradually combine the wet and dry ingredients and stir until smooth.",
+          "Pour the batter into the prepared pan and bake for 30-35 minutes or until a toothpick inserted into the center comes out clean.",
+          "Cool the cake for 10 minutes before removing from the pan."
+        ],
+        "temperature": "350°F (175°C)",
+        "baking_time": "30-35 minutes",
+        "substitutions": [
+          {"substitute_for": "eggs", "substitute_with": "flaxseed meal (1 tbsp + 3 tbsp water per egg)"},
+          {"substitute_for": "milk", "substitute_with": "almond milk"}
+        ],
+        "serving_size": 8,
+        "adjustments": [
+          {"for_servings": "4", "adjustment": "Reduce ingredient quantities by half."},
+          {"for_servings": "16", "adjustment": "Double all ingredients."}
+        ]
+      }
+    },
+    {
+      "input": "How to make a vanilla sponge cake?",
+      "output": {
+        "recipe_name": "Vanilla Sponge Cake",
+        "ingredients": [
+          {"ingredient": "flour", "quantity": "1 1/2 cups"},
+          {"ingredient": "baking powder", "quantity": "1 tsp"},
+          {"ingredient": "sugar", "quantity": "1 cup"},
+          {"ingredient": "eggs", "quantity": "4"},
+          {"ingredient": "butter", "quantity": "1/2 cup"},
+          {"ingredient": "vanilla extract", "quantity": "1 tsp"}
+        ],
+        "instructions": [
+          "Preheat the oven to 350°F (175°C).",
+          "Grease and line a round cake pan.",
+          "Whisk eggs and sugar until light and fluffy.",
+          "Sift the flour and baking powder together.",
+          "Gradually fold the dry ingredients into the egg mixture.",
+          "Add melted butter and vanilla extract and mix gently.",
+          "Pour the batter into the prepared pan and bake for 25-30 minutes.",
+          "Cool and serve."
+        ],
+        "temperature": "350°F (175°C)",
+        "baking_time": "25-30 minutes",
+        "substitutions": [
+          {"substitute_for": "butter", "substitute_with": "vegetable oil"}
+        ],
+        "serving_size": 8,
+        "adjustments": [
+          {"for_servings": "4", "adjustment": "Use half the ingredients."}
+        ]
+      }
+    },
+    {
+      "input": "How to bake a carrot cake?",
+      "output": {
+        "recipe_name": "Carrot Cake",
+        "ingredients": [
+          {"ingredient": "flour", "quantity": "2 cups"},
+          {"ingredient": "baking soda", "quantity": "1 tsp"},
+          {"ingredient": "sugar", "quantity": "1 cup"},
+          {"ingredient": "carrots", "quantity": "2 cups, grated"},
+          {"ingredient": "eggs", "quantity": "3"},
+          {"ingredient": "vegetable oil", "quantity": "1 cup"},
+          {"ingredient": "vanilla extract", "quantity": "1 tsp"},
+          {"ingredient": "cinnamon", "quantity": "1 tsp"}
+        ],
+        "instructions": [
+          "Preheat the oven to 350°F (175°C).",
+          "Grease and flour a 9-inch round cake pan.",
+          "Mix the dry ingredients (flour, baking soda, cinnamon, sugar).",
+          "Add the eggs, oil, and vanilla extract to the dry ingredients and mix well.",
+          "Fold in the grated carrots.",
+          "Pour the batter into the prepared pan and bake for 35-40 minutes.",
+          "Cool before frosting."
+        ],
+        "temperature": "350°F (175°C)",
+        "baking_time": "35-40 minutes",
+        "substitutions": [
+          {"substitute_for": "eggs", "substitute_with": "mashed bananas (1 banana per egg)"},
+          {"substitute_for": "vegetable oil", "substitute_with": "applesauce"}
+        ],
+        "serving_size": 8,
+        "adjustments": [
+          {"for_servings": "4", "adjustment": "Reduce ingredients by half."},
+          {"for_servings": "16", "adjustment": "Double ingredients."}
+        ]
+      }
+    },
+    {
+      "input": "How to bake a banana bread?",
+      "output": {
+        "recipe_name": "Banana Bread",
+        "ingredients": [
+          {"ingredient": "flour", "quantity": "2 cups"},
+          {"ingredient": "baking soda", "quantity": "1 tsp"},
+          {"ingredient": "sugar", "quantity": "1 cup"},
+          {"ingredient": "butter", "quantity": "1/2 cup"},
+          {"ingredient": "eggs", "quantity": "2"},
+          {"ingredient": "bananas", "quantity": "3, mashed"}
+        ],
+        "instructions": [
+          "Preheat the oven to 350°F (175°C).",
+          "Grease a loaf pan.",
+          "In a bowl, mix together the dry ingredients (flour, baking soda, sugar).",
+          "Add eggs, melted butter, and mashed bananas.",
+          "Pour the batter into the prepared loaf pan and bake for 50-60 minutes.",
+          "Cool before serving."
+        ],
+        "temperature": "350°F (175°C)",
+        "baking_time": "50-60 minutes",
+        "substitutions": [
+          {"substitute_for": "eggs", "substitute_with": "flaxseed meal"},
+          {"substitute_for": "butter", "substitute_with": "coconut oil"}
+        ],
+        "serving_size": 8,
+        "adjustments": [
+          {"for_servings": "4", "adjustment": "Use half of all ingredients."},
+          {"for_servings": "16", "adjustment": "Double all ingredients."}
+        ]
+      }
+    },
+    {
+      "input": "How to bake a red velvet cake?",
+      "output": {
+        "recipe_name": "Red Velvet Cake",
+        "ingredients": [
+          {"ingredient": "flour", "quantity": "2 1/2 cups"},
+          {"ingredient": "cocoa powder", "quantity": "1 tbsp"},
+          {"ingredient": "baking powder", "quantity": "1 tsp"},
+          {"ingredient": "sugar", "quantity": "1 1/2 cups"},
+          {"ingredient": "buttermilk", "quantity": "1 cup"},
+          {"ingredient": "vegetable oil", "quantity": "1 cup"},
+          {"ingredient": "eggs", "quantity": "2"},
+          {"ingredient": "red food coloring", "quantity": "1 oz"},
+          {"ingredient": "vanilla extract", "quantity": "1 tsp"}
+        ],
+        "instructions": [
+          "Preheat the oven to 350°F (175°C).",
+          "Grease and flour a 9-inch round cake pan.",
+          "Mix the dry ingredients (flour, cocoa powder, baking powder, sugar).",
+          "Add eggs, buttermilk, oil, vanilla extract, and red food coloring.",
+          "Pour the batter into the pan and bake for 30-35 minutes.",
+          "Cool before frosting."
+        ],
+        "temperature": "350°F (175°C)",
+        "baking_time": "30-35 minutes",
+        "substitutions": [
+          {"substitute_for": "buttermilk", "substitute_with": "regular milk with vinegar"},
+          {"substitute_for": "eggs", "substitute_with": "flaxseed meal"}
+        ],
+        "serving_size": 8,
+        "adjustments": [
+          {"for_servings": "4", "adjustment": "Use half of all ingredients."},
+          {"for_servings": "16", "adjustment": "Double all ingredients."}
+        ]
+      }
+    },
+    {
+      "input": "How to bake a strawberry cake?",
+      "output": {
+        "recipe_name": "Strawberry cake",
+        "ingredients": [
+          {"ingredient": "flour", "quantity": "2 cups"},
+          {"ingredient": "baking powder", "quantity": "2 tsp"},
+          {"ingredient": "sugar", "quantity": "1/4 cup"},
+          {"ingredient": "butter", "quantity": "1/2 cup"},
+          {"ingredient": "cream", "quantity": "1 cup"},
+          {"ingredient": "strawberries", "quantity": "2 cups, sliced"}
+        ],
+        "instructions": [
+          "Preheat the oven to 375°F (190°C).",
+          "Mix dry ingredients (flour, baking powder, sugar).",
+          "Cut in the butter until the mixture resembles coarse crumbs.",
+          "Add the cream and stir to form dough.",
+          "Roll out and cut into circles, then bake for 12-15 minutes.",
+          "Serve with whipped cream and fresh strawberries."
+        ],
+        "temperature": "375°F (190°C)",
+        "baking_time": "12-15 minutes",
+        "substitutions": [
+          {"substitute_for": "cream", "substitute_with": "yogurt"}
+        ],
+        "serving_size": 6,
+        "adjustments": [
+          {"for_servings": "3", "adjustment": "Use half of ingredients."},
+          {"for_servings": "12", "adjustment": "Double ingredients."}
+        ]
+      }
+    },
+    {
+        "input": "I’m hosting a fall-themed dinner party. Do you have a recipe for a spiced apple cake that pairs well with hot cider?",
+        "output": {
+          "recipe_name": "Spiced Apple Cake",
+          "ingredients": [
+            {"ingredient": "all-purpose flour", "quantity": "2 cups"},
+            {"ingredient": "sugar", "quantity": "1 cup"},
+            {"ingredient": "cinnamon", "quantity": "1 tsp"},
+            {"ingredient": "nutmeg", "quantity": "1/2 tsp"},
+            {"ingredient": "baking powder", "quantity": "1 tsp"},
+            {"ingredient": "baking soda", "quantity": "1/2 tsp"},
+            {"ingredient": "salt", "quantity": "1/4 tsp"},
+            {"ingredient": "apples (peeled and diced)", "quantity": "2 cups"},
+            {"ingredient": "eggs", "quantity": "2"},
+            {"ingredient": "vegetable oil", "quantity": "1/2 cup"},
+            {"ingredient": "vanilla extract", "quantity": "1 tsp"}
+          ],
+          "instructions": [
+            "Preheat oven to 350°F (175°C) and grease a 9-inch cake pan.",
+            "Mix flour, sugar, cinnamon, nutmeg, baking powder, baking soda, and salt in a bowl.",
+            "In another bowl, mix eggs, oil, and vanilla.",
+            "Combine wet and dry ingredients, then fold in apples.",
+            "Pour batter into pan and bake for 40-45 minutes or until a toothpick comes out clean.",
+            "Cool before serving. Perfect with hot cider!"
+          ],
+          "temperature": "350°F (175°C)",
+          "baking_time": "40-45 minutes",
+          "substitutions": [
+            {"substitute_for": "vegetable oil", "substitute_with": "applesauce (1:1 ratio)"}
+          ],
+          "serving_size": 10,
+          "adjustments": [
+            {"for_servings": "5", "adjustment": "Halve all ingredients"},
+            {"for_servings": "20", "adjustment": "Double all ingredients"}
+          ]
+        }
+      },
+      {
+        "input": "What’s a gluten-free chocolate cake recipe for a birthday celebration?",
+        "output": {
+          "recipe_name": "Gluten-Free Chocolate Cake",
+          "ingredients": [
+            {"ingredient": "gluten-free flour", "quantity": "1 1/2 cups"},
+            {"ingredient": "cocoa powder", "quantity": "1/2 cup"},
+            {"ingredient": "baking powder", "quantity": "1 tsp"},
+            {"ingredient": "baking soda", "quantity": "1/2 tsp"},
+            {"ingredient": "sugar", "quantity": "1 cup"},
+            {"ingredient": "milk", "quantity": "1 cup"},
+            {"ingredient": "eggs", "quantity": "2"},
+            {"ingredient": "vanilla extract", "quantity": "1 tsp"},
+            {"ingredient": "vegetable oil", "quantity": "1/2 cup"}
+          ],
+          "instructions": [
+            "Preheat oven to 350°F (175°C). Grease two 8-inch round cake pans.",
+            "In a bowl, combine flour, cocoa, baking powder, baking soda, and sugar.",
+            "In another bowl, mix eggs, milk, vanilla, and oil.",
+            "Combine wet and dry ingredients, and pour batter into pans.",
+            "Bake for 25-30 minutes. Cool and frost if desired."
+          ],
+          "temperature": "350°F (175°C)",
+          "baking_time": "25-30 minutes",
+          "substitutions": [
+            {"substitute_for": "milk", "substitute_with": "almond milk"}
+          ],
+            "serving_size": 12,
+          "adjustments": [
+            {"for_servings": "6", "adjustment": "Use half the ingredients"}
+          ]
+        }
+      },
+      {
+        "input": "Do you have a beginner-friendly lemon cake recipe that’s quick to bake?",
+        "output": {
+          "recipe_name": "Easy Lemon Cake",
+          "ingredients": [
+            {"ingredient": "flour", "quantity": "1 cup"},
+            {"ingredient": "sugar", "quantity": "3/4 cup"},
+            {"ingredient": "baking powder", "quantity": "1/2 tsp"},
+            {"ingredient": "lemon zest", "quantity": "1 tbsp"},
+            {"ingredient": "milk", "quantity": "1/2 cup"},
+            {"ingredient": "lemon juice", "quantity": "1/4 cup"},
+            {"ingredient": "butter", "quantity": "1/4 cup"}
+          ],
+          "instructions": [
+            "Preheat oven to 350°F (175°C) and grease a loaf pan.",
+            "Combine flour, sugar, baking powder, and lemon zest in a bowl.",
+            "Add milk, lemon juice, and melted butter and stir until smooth.",
+            "Pour batter into pan and bake for 20-25 minutes.",
+            "Cool before serving."
+          ],
+          "temperature": "350°F (175°C)",
+          "baking_time": "20-25 minutes",
+          "substitutions": [
+            {"substitute_for": "milk", "substitute_with": "oat milk"}
+          ],
+          "serving_size": 6,
+          "adjustments": [
+            {"for_servings": "12", "adjustment": "Double all ingredients"}
+          ]
+        }
+      },
+      {
+        "input": "Can you suggest a dairy-free vanilla cake recipe for a small celebration?",
+        "output": {
+          "recipe_name": "Dairy-Free Vanilla Cake",
+          "ingredients": [
+            {"ingredient": "flour", "quantity": "1 1/2 cups"},
+            {"ingredient": "sugar", "quantity": "1 cup"},
+            {"ingredient": "baking powder", "quantity": "1 tsp"},
+            {"ingredient": "salt", "quantity": "1/4 tsp"},
+            {"ingredient": "almond milk", "quantity": "1 cup"},
+            {"ingredient": "vegetable oil", "quantity": "1/3 cup"},
+            {"ingredient": "vanilla extract", "quantity": "1 tsp"}
+          ],
+          "instructions": [
+            "Preheat oven to 350°F (175°C) and grease a 9-inch pan.",
+            "Combine flour, sugar, baking powder, and salt in a bowl.",
+            "Add almond milk, oil, and vanilla and mix until smooth.",
+            "Pour batter into pan and bake for 25-30 minutes.",
+            "Cool before serving."
+          ],
+          "temperature": "350°F (175°C)",
+          "baking_time": "25-30 minutes",
+          "substitutions": [
+            {"substitute_for": "almond milk", "substitute_with": "coconut milk"}
+          ],
+          "serving_size": 8,
+          "adjustments": [
+            {"for_servings": "4", "adjustment": "Use half the ingredients"}
+          ]
+        }
+      },
+      {
+        "input": "I want a unique cake for a summer picnic—maybe something fruity like pineapple?",
+        "output": {
+          "recipe_name": "Pineapple Upside-Down Cake",
+          "ingredients": [
+            {"ingredient": "all-purpose flour", "quantity": "1 cup"},
+            {"ingredient": "brown sugar", "quantity": "1/2 cup"},
+            {"ingredient": "sugar", "quantity": "1/2 cup"},
+            {"ingredient": "baking powder", "quantity": "1 tsp"},
+            {"ingredient": "pineapple rings", "quantity": "8"},
+            {"ingredient": "butter", "quantity": "1/4 cup"},
+            {"ingredient": "eggs", "quantity": "2"}
+          ],
+          "instructions": [
+            "Preheat oven to 350°F (175°C) and melt butter in a cast iron skillet.",
+            "Sprinkle brown sugar over butter and arrange pineapple rings.",
+            "Mix flour, baking powder, and sugar in a bowl.",
+            "Add eggs and mix. Pour batter over pineapples in skillet.",
+            "Bake for 30-35 minutes, then cool and invert to serve."
+          ],
+          "temperature": "350°F (175°C)",
+          "baking_time": "30-35 minutes",
+          "substitutions": [
+            {"substitute_for": "butter", "substitute_with": "coconut oil"}
+          ],
+          "serving_size": 8,
+          "adjustments": [
+            {"for_servings": "16", "adjustment": "Double all ingredients"}
+          ]
+        }
+      },
+      {
+        "input": "I’d love a moist and spiced coffee cake for my morning gathering. Any suggestions?",
+        "output": {
+          "recipe_name": "Classic Coffee Cake",
+          "ingredients": [
+            {"ingredient": "all-purpose flour", "quantity": "2 cups"},
+            {"ingredient": "sugar", "quantity": "1 cup"},
+            {"ingredient": "baking powder", "quantity": "1 tsp"},
+            {"ingredient": "cinnamon", "quantity": "1 tbsp"},
+            {"ingredient": "salt", "quantity": "1/2 tsp"},
+            {"ingredient": "butter (melted)", "quantity": "1/2 cup"},
+            {"ingredient": "milk", "quantity": "1 cup"},
+            {"ingredient": "eggs", "quantity": "2"},
+            {"ingredient": "vanilla extract", "quantity": "1 tsp"},
+            {"ingredient": "brown sugar (for topping)", "quantity": "1/2 cup"}
+          ],
+          "instructions": [
+            "Preheat oven to 350°F (175°C) and grease a 9x13 inch baking dish.",
+            "Mix flour, sugar, baking powder, cinnamon, and salt in a bowl.",
+            "In another bowl, whisk melted butter, milk, eggs, and vanilla.",
+            "Combine wet and dry ingredients and pour batter into dish.",
+            "Sprinkle brown sugar on top. Bake for 25-30 minutes.",
+            "Let cool before serving."
+          ],
+          "temperature": "350°F (175°C)",
+          "baking_time": "25-30 minutes",
+          "substitutions": [
+            {"substitute_for": "butter", "substitute_with": "coconut oil"}
+          ],
+          "serving_size": 12,
+          "adjustments": [
+            {"for_servings": "6", "adjustment": "Use half of each ingredient"},
+            {"for_servings": "24", "adjustment": "Double each ingredient"}
+          ]
+        }
+      },
+      {
+        "input": "I want an indulgent Black Forest cake for a special occasion. Can you share a recipe?",
+        "output": {
+          "recipe_name": "Black Forest Cake",
+          "ingredients": [
+            {"ingredient": "all-purpose flour", "quantity": "1 1/2 cups"},
+            {"ingredient": "cocoa powder", "quantity": "3/4 cup"},
+            {"ingredient": "baking powder", "quantity": "1 tsp"},
+            {"ingredient": "sugar", "quantity": "1 1/2 cups"},
+            {"ingredient": "eggs", "quantity": "4"},
+            {"ingredient": "milk", "quantity": "1 cup"},
+            {"ingredient": "vegetable oil", "quantity": "1/2 cup"},
+            {"ingredient": "vanilla extract", "quantity": "1 tsp"},
+            {"ingredient": "heavy cream", "quantity": "2 cups"},
+            {"ingredient": "cherry filling", "quantity": "1 cup"},
+            {"ingredient": "dark chocolate shavings", "quantity": "1/2 cup"}
+          ],
+          "instructions": [
+            "Preheat oven to 350°F (175°C) and grease two 9-inch round pans.",
+            "In a large bowl, mix flour, cocoa powder, baking powder, and sugar.",
+            "Add eggs, milk, oil, and vanilla, mixing until smooth.",
+            "Divide batter between pans and bake for 30-35 minutes.",
+            "Cool, then layer with cherry filling and whipped cream. Top with chocolate shavings."
+          ],
+          "temperature": "350°F (175°C)",
+          "baking_time": "30-35 minutes",
+          "substitutions": [
+            {"substitute_for": "heavy cream", "substitute_with": "coconut cream"}
+          ],
+          "serving_size": 10,
+          "adjustments": [
+            {"for_servings": "5", "adjustment": "Halve all ingredients"},
+            {"for_servings": "20", "adjustment": "Double all ingredients"}
+          ]
+        }
+      },
+      {
+        "input": "Do you have a recipe for a delicate white forest cake that’s great for a wedding anniversary?",
+        "output": {
+          "recipe_name": "White Forest Cake",
+          "ingredients": [
+            {"ingredient": "cake flour", "quantity": "1 1/2 cups"},
+            {"ingredient": "sugar", "quantity": "1 cup"},
+            {"ingredient": "baking powder", "quantity": "1 tsp"},
+            {"ingredient": "salt", "quantity": "1/4 tsp"},
+            {"ingredient": "eggs", "quantity": "4"},
+            {"ingredient": "milk", "quantity": "1/2 cup"},
+            {"ingredient": "vegetable oil", "quantity": "1/4 cup"},
+            {"ingredient": "vanilla extract", "quantity": "1 tsp"},
+            {"ingredient": "heavy cream", "quantity": "1 1/2 cups"},
+            {"ingredient": "white chocolate shavings", "quantity": "1/2 cup"},
+            {"ingredient": "maraschino cherries", "quantity": "1 cup"}
+          ],
+          "instructions": [
+            "Preheat oven to 350°F (175°C) and grease two 9-inch round cake pans.",
+            "In a bowl, mix flour, sugar, baking powder, and salt.",
+            "Add eggs, milk, oil, and vanilla. Stir until smooth.",
+            "Divide batter between pans and bake for 25-30 minutes.",
+            "Cool, then layer with whipped cream and cherries. Top with white chocolate shavings."
+          ],
+          "temperature": "350°F (175°C)",
+          "baking_time": "25-30 minutes",
+          "substitutions": [
+            {"substitute_for": "heavy cream", "substitute_with": "whipped coconut cream"}
+          ],
+          "serving_size": 10,
+          "adjustments": [
+            {"for_servings": "5", "adjustment": "Use half of each ingredient"},
+            {"for_servings": "20", "adjustment": "Double each ingredient"}
+          ]
+        }
+      },
+      {
+        "input": "Can I get a tropical-themed coconut cake recipe? It’s for a beach party.",
+        "output": {
+          "recipe_name": "Coconut Cake",
+          "ingredients": [
+            {"ingredient": "all-purpose flour", "quantity": "2 cups"},
+            {"ingredient": "sugar", "quantity": "1 cup"},
+            {"ingredient": "baking powder", "quantity": "1 tsp"},
+            {"ingredient": "salt", "quantity": "1/2 tsp"},
+            {"ingredient": "eggs", "quantity": "3"},
+            {"ingredient": "coconut milk", "quantity": "1 cup"},
+            {"ingredient": "vegetable oil", "quantity": "1/2 cup"},
+            {"ingredient": "vanilla extract", "quantity": "1 tsp"},
+            {"ingredient": "shredded coconut", "quantity": "1 cup"},
+            {"ingredient": "coconut cream", "quantity": "1 cup (for frosting)"}
+          ],
+          "instructions": [
+            "Preheat oven to 350°F (175°C) and grease a 9x13 inch baking dish.",
+            "In a bowl, mix flour, sugar, baking powder, and salt.",
+            "Add eggs, coconut milk, oil, and vanilla and mix until smooth.",
+            "Pour batter into dish and bake for 30-35 minutes.",
+            "Cool, then frost with coconut cream and sprinkle with shredded coconut."
+          ],
+          "temperature": "350°F (175°C)",
+          "baking_time": "30-35 minutes",
+          "substitutions": [
+            {"substitute_for": "coconut milk", "substitute_with": "almond milk with coconut extract"}
+          ],
+          "serving_size": 12,
+          "adjustments": [
+            {"for_servings": "6", "adjustment": "Use half of each ingredient"},
+            {"for_servings": "24", "adjustment": "Double each ingredient"}
+          ]
+        }
+      },
+      {
+        "input": "Do you have a classic cherry cake recipe that’s not too sweet?",
+        "output": {
+          "recipe_name": "Classic Cherry Cake",
+          "ingredients": [
+            {"ingredient": "all-purpose flour", "quantity": "1 3/4 cups"},
+            {"ingredient": "sugar", "quantity": "3/4 cup"},
+            {"ingredient": "baking powder", "quantity": "1 1/2 tsp"},
+            {"ingredient": "salt", "quantity": "1/2 tsp"},
+            {"ingredient": "eggs", "quantity": "2"},
+            {"ingredient": "milk", "quantity": "3/4 cup"},
+            {"ingredient": "butter (softened)", "quantity": "1/2 cup"},
+            {"ingredient": "vanilla extract", "quantity": "1 tsp"},
+            {"ingredient": "pitted cherries", "quantity": "1 cup"}
+          ],
+          "instructions": [
+            "Preheat oven to 350°F (175°C). Grease a 9-inch round cake pan.",
+            "Mix flour, sugar, baking powder, and salt in a bowl.",
+            "In another bowl, beat eggs, milk, butter, and vanilla until smooth.",
+            "Combine wet and dry ingredients, fold in cherries, and pour batter into pan.",
+            "Bake for 30-35 minutes. Cool before serving."
+          ],
+          "temperature": "350°F (175°C)",
+          "baking_time": "30-35 minutes",
+          "substitutions": [
+            {"substitute_for": "butter", "substitute_with": "coconut oil"}
+          ],
+          "serving_size": 8,
+          "adjustments": [
+            {"for_servings": "4", "adjustment": "Use half of each ingredient"},
+            {"for_servings": "16", "adjustment": "Double each ingredient"}
+          ]
+        }
+      },
+      {
+        "input": "I’d love a creamy cookies and cream cake for a family celebration.",
+        "output": {
+          "recipe_name": "Cookies and Cream Cake",
+          "ingredients": [
+            {"ingredient": "all-purpose flour", "quantity": "2 cups"},
+            {"ingredient": "sugar", "quantity": "1 1/2 cups"},
+            {"ingredient": "baking powder", "quantity": "2 tsp"},
+            {"ingredient": "eggs", "quantity": "4"},
+            {"ingredient": "milk", "quantity": "1 cup"},
+            {"ingredient": "butter (melted)", "quantity": "1/2 cup"},
+            {"ingredient": "vanilla extract", "quantity": "1 tsp"},
+            {"ingredient": "crushed chocolate sandwich cookies", "quantity": "1 cup"}
+          ],
+          "instructions": [
+            "Preheat oven to 350°F (175°C) and grease two 9-inch round pans.",
+            "Combine flour, sugar, and baking powder in a bowl.",
+            "Add eggs, milk, melted butter, and vanilla, mixing until smooth.",
+            "Fold in crushed cookies, divide batter between pans, and bake for 25-30 minutes.",
+            "Cool, then layer with frosting and sprinkle with additional cookie crumbs."
+          ],
+          "temperature": "350°F (175°C)",
+          "baking_time": "25-30 minutes",
+          "substitutions": [
+            {"substitute_for": "milk", "substitute_with": "almond milk"}
+          ],
+          "serving_size": 10,
+          "adjustments": [
+            {"for_servings": "5", "adjustment": "Use half of each ingredient"},
+            {"for_servings": "20", "adjustment": "Double each ingredient"}
+          ]
+        }
+      },
+      {
+        "input": "Any ideas for a mocha-flavored cake to pair with coffee?",
+        "output": {
+          "recipe_name": "Mocha Cake",
+          "ingredients": [
+            {"ingredient": "all-purpose flour", "quantity": "1 3/4 cups"},
+            {"ingredient": "sugar", "quantity": "1 1/2 cups"},
+            {"ingredient": "cocoa powder", "quantity": "1/2 cup"},
+            {"ingredient": "baking soda", "quantity": "1 1/2 tsp"},
+            {"ingredient": "salt", "quantity": "1/2 tsp"},
+            {"ingredient": "brewed coffee (strong)", "quantity": "1 cup"},
+            {"ingredient": "vegetable oil", "quantity": "1/2 cup"},
+            {"ingredient": "vanilla extract", "quantity": "1 tsp"},
+            {"ingredient": "eggs", "quantity": "2"}
+          ],
+          "instructions": [
+            "Preheat oven to 350°F (175°C). Grease a 9x13 inch pan.",
+            "Mix flour, sugar, cocoa powder, baking soda, and salt in a bowl.",
+            "Add coffee, oil, vanilla, and eggs. Stir until smooth.",
+            "Pour batter into pan and bake for 30-35 minutes. Cool before serving."
+          ],
+          "temperature": "350°F (175°C)",
+          "baking_time": "30-35 minutes",
+          "substitutions": [
+            {"substitute_for": "vegetable oil", "substitute_with": "melted coconut oil"}
+          ],
+          "serving_size": 10,
+          "adjustments": [
+            {"for_servings": "5", "adjustment": "Use half of each ingredient"},
+            {"for_servings": "20", "adjustment": "Double each ingredient"}
+          ]
+        }
+      },
+      {
+        "input": "Can you help me with a light almond cake recipe? I’d like something nutty but not too heavy.",
+        "output": {
+          "recipe_name": "Almond Cake",
+          "ingredients": [
+            {"ingredient": "almond flour", "quantity": "2 cups"},
+            {"ingredient": "sugar", "quantity": "1 cup"},
+            {"ingredient": "baking powder", "quantity": "1 tsp"},
+            {"ingredient": "salt", "quantity": "1/4 tsp"},
+            {"ingredient": "eggs", "quantity": "3"},
+            {"ingredient": "milk", "quantity": "1/2 cup"},
+            {"ingredient": "butter (softened)", "quantity": "1/2 cup"},
+            {"ingredient": "vanilla extract", "quantity": "1 tsp"}
+          ],
+          "instructions": [
+            "Preheat oven to 350°F (175°C) and grease a round 9-inch pan.",
+            "Mix almond flour, sugar, baking powder, and salt in a bowl.",
+            "In another bowl, beat eggs, milk, butter, and vanilla until smooth.",
+            "Combine wet and dry ingredients and pour batter into pan.",
+            "Bake for 25-30 minutes. Cool before serving."
+          ],
+          "temperature": "350°F (175°C)",
+          "baking_time": "25-30 minutes",
+          "substitutions": [
+            {"substitute_for": "milk", "substitute_with": "almond milk"}
+          ],
+          "serving_size": 8,
+          "adjustments": [
+            {"for_servings": "4", "adjustment": "Use half of each ingredient"},
+            {"for_servings": "16", "adjustment": "Double each ingredient"}
+          ]
+        }
+      },
+      {
+        "input": "What’s a good pumpkin cake recipe for fall celebrations?",
+        "output": {
+          "recipe_name": "Pumpkin Cake",
+          "ingredients": [
+            {"ingredient": "all-purpose flour", "quantity": "2 cups"},
+            {"ingredient": "sugar", "quantity": "1 cup"},
+            {"ingredient": "baking powder", "quantity": "1 tsp"},
+            {"ingredient": "cinnamon", "quantity": "1 tsp"},
+            {"ingredient": "salt", "quantity": "1/2 tsp"},
+            {"ingredient": "pumpkin puree", "quantity": "1 cup"},
+            {"ingredient": "vegetable oil", "quantity": "1/2 cup"},
+            {"ingredient": "eggs", "quantity": "2"},
+            {"ingredient": "vanilla extract", "quantity": "1 tsp"}
+          ],
+          "instructions": [
+            "Preheat oven to 350°F (175°C) and grease a 9x13 inch pan.",
+            "In a large bowl, mix flour, sugar, baking powder, cinnamon, and salt.",
+            "Add pumpkin puree, oil, eggs, and vanilla. Stir until smooth.",
+            "Pour batter into pan and bake for 25-30 minutes.",
+            "Let cool and serve."
+          ],
+          "temperature": "350°F (175°C)",
+          "baking_time": "25-30 minutes",
+          "substitutions": [
+            {"substitute_for": "vegetable oil", "substitute_with": "applesauce"}
+          ],
+          "serving_size": 12,
+          "adjustments": [
+            {"for_servings": "6", "adjustment": "Use half of each ingredient"},
+            {"for_servings": "24", "adjustment": "Double each ingredient"}
+          ]
+        }
+      },
+      {
+        "input": "I’m craving a blueberry cake with a hint of lemon. Do you have that?",
+        "output": {
+          "recipe_name": "Blueberry Lemon Cake",
+          "ingredients": [
+            {"ingredient": "all-purpose flour", "quantity": "2 cups"},
+            {"ingredient": "sugar", "quantity": "1 cup"},
+            {"ingredient": "baking powder", "quantity": "1 tsp"},
+            {"ingredient": "salt", "quantity": "1/4 tsp"},
+            {"ingredient": "lemon zest", "quantity": "1 tbsp"},
+            {"ingredient": "eggs", "quantity": "2"},
+            {"ingredient": "milk", "quantity": "3/4 cup"},
+            {"ingredient": "butter (melted)", "quantity": "1/2 cup"},
+            {"ingredient": "blueberries", "quantity": "1 cup"}
+          ],
+          "instructions": [
+            "Preheat oven to 350°F (175°C). Grease a 9-inch round cake pan.",
+            "Mix flour, sugar, baking powder, salt, and lemon zest in a bowl.",
+            "In another bowl, beat eggs, milk, and butter until smooth.",
+            "Combine wet and dry ingredients, fold in blueberries, and pour batter into pan.",
+            "Bake for 30-35 minutes. Cool before serving."
+          ],
+          "temperature": "350°F (175°C)",
+          "baking_time": "30-35 minutes",
+          "substitutions": [
+            {"substitute_for": "milk", "substitute_with": "buttermilk"}
+          ],
+          "serving_size": 8,
+          "adjustments": [
+            {"for_servings": "4", "adjustment": "Use half of each ingredient"},
+            {"for_servings": "16", "adjustment": "Double each ingredient"}
+          ]
+        }
+      },
+      {
+        "input": "Hello, I want to bake a cake.",
+        "output": "Hey! What kind of cake are you in the mood for today? Chocolate, vanilla, or something different?"
+      },
+      {
+        "input": "Hi, I need a cake recipe.",
+        "output": "Hello! What kind of cake are you interested in baking? Chocolate, vanilla, or another flavor?"
+      },
+      {
+        "input": "Hi there, I want to bake a cake.",
+        "output": "Hey there! What kind of cake do you feel like making today? Chocolate, vanilla, or do you want something else?"
+      },
+      {
+        "input": "Hey, I need help baking a cake.",
+        "output": "Sure thing! What flavor of cake would you like to bake? Chocolate, vanilla, or another type?"
+      },
+      {
+        "input": "I want to bake a cake. What should I make?",
+        "output": "Awesome! What flavor are you thinking of? Chocolate, vanilla, or something else entirely?"
+      },
+      {
+        "input": "Hi, I’m in the mood for baking. Can you suggest a cake?",
+        "output": "I'd love to help! What kind of cake would you like to bake today? Chocolate, vanilla, or maybe something new?"
+      },
+      {
+        "input": "I want to make a cake. Can you guide me?",
+        "output": "Of course! What kind of cake do you want to bake? Chocolate, vanilla, or another flavor?"
+      },
+      {
+        "input": "Hey, I want to bake a cake today.",
+        "output": "Great! What kind of cake are you thinking of? Chocolate, vanilla, or perhaps something else?"
+      },
+      {
+        "input": "Hello, I’d like a recipe for a cake.",
+        "output": "Sure! What type of cake do you want to bake? Chocolate, vanilla, or something unique?"
+      },
+      {
+        "input": "Hi, I’m craving some cake. Can you help me bake one?",
+        "output": "Absolutely! What kind of cake would you like to make? Chocolate, vanilla, or another flavor?"
+      },
+      {
+        "input": "I need to bake a cake. What are my options?",
+        "output": "You have plenty of options! Would you prefer a chocolate, vanilla, or something different?"
+      },
+      {
+        "input": "Can you help me make a cake?",
+        "output": "Of course! What flavor of cake would you like to bake? Chocolate, vanilla, or something else?"
+      },
+      {
+        "input": "I want to bake a cake. Any recommendations?",
+        "output": "Sure! Are you in the mood for a classic chocolate cake, a vanilla cake, or something more adventurous?"
+      },
+      {
+        "input": "Hi, can you assist me in baking a cake?",
+        "output": "I'd be happy to! What flavor would you like to bake? Chocolate, vanilla, or something else?"
+      },
+      {
+        "input": "Hello, I’m looking for a cake recipe.",
+        "output": "Awesome! What kind of cake are you interested in? Chocolate, vanilla, or another variety?"
+      },
+      {
+        "input": "Hi there! Can you suggest a cake to bake?",
+        "output": "Definitely! What flavor sounds good to you? Chocolate, vanilla, or something different?"
+      },
+      {
+        "input": "I’m planning to bake a cake. Any ideas?",
+        "output": "That sounds fun! What type of cake would you like? Chocolate, vanilla, or something else entirely?"
+      },
+      {
+        "input": "What can I use instead of eggs?",
+        "output": "You can substitute eggs with flaxseed meal mixed with water or use applesauce. For every egg, use 1 tablespoon of flaxseed meal with 3 tablespoons of water."
+      },
+      {
+        "input": "Is there a substitute for butter?",
+        "output": "Yes, you can use vegetable oil or coconut oil as a butter substitute. You can also try using applesauce for a healthier option."
+      },
+      {
+        "input": "Can I use almond flour instead of regular flour?",
+        "output": "Absolutely! You can substitute almond flour for regular flour, but you might need to adjust the quantities. Typically, you’ll need about 1.5 times more almond flour than regular flour."
+      },
+      {
+        "input": "Can I substitute sugar with honey?",
+        "output": "Yes, you can substitute sugar with honey, but remember to reduce the amount since honey is sweeter. Use about 3/4 cup of honey for every cup of sugar, and reduce the liquid in the recipe slightly."
+      },
+      {
+        "input": "What can I use instead of milk?",
+        "output": "You can use almond milk, coconut milk, or oat milk as a substitute for regular milk. These will work well in most cake recipes."
+      },
+      {
+        "input": "I don’t have vanilla extract, can I use something else?",
+        "output": "Yes, you can substitute vanilla extract with almond extract or maple syrup. It will change the flavor a bit, but it still works well in cakes."
+      },
+      {
+        "input": "Can I use coconut oil instead of vegetable oil?",
+        "output": "Yes, you can substitute coconut oil for vegetable oil in your cake recipe. It may add a slight coconut flavor, which can be delicious in certain cakes."
+      },
+      {
+        "input": "Is there a substitute for all-purpose flour?",
+        "output": "Yes, you can use whole wheat flour, almond flour, or gluten-free flour blends. Just make sure to adjust the quantities, as different flours behave differently."
+      },
+      {
+        "input": "What can I use instead of baking soda?",
+        "output": "You can use baking powder instead of baking soda. Use about 3 times the amount of baking powder as you would baking soda."
+      },
+      {
+        "input": "I’m out of eggs, what can I use instead?",
+        "output": "You can use 1/4 cup of unsweetened applesauce, a mashed banana, or 1 tablespoon of flaxseed meal mixed with 3 tablespoons of water for each egg."
+      },
+      {
+        "input": "Can I use honey in place of sugar?",
+        "output": "Yes, you can substitute honey for sugar, but keep in mind that honey is liquid. For every cup of sugar, use 3/4 cup of honey and reduce the other liquids in your recipe."
+      },
+      {
+        "input": "What’s a good substitute for sour cream?",
+        "output": "You can use Greek yogurt, buttermilk, or even mascarpone cheese as a substitute for sour cream in cake recipes."
+      },
+      {
+        "input": "Can I use soy milk instead of regular milk?",
+        "output": "Yes, soy milk is a great substitute for regular milk. It has a similar consistency and works well in most cake recipes."
+      },
+      {
+        "input": "Can I use yogurt instead of buttermilk?",
+        "output": "Yes, you can use yogurt as a substitute for buttermilk. Thin it with a little water to get a similar consistency to buttermilk."
+      },
+      {
+        "input": "I don’t have cocoa powder, what can I use?",
+        "output": "If you don't have cocoa powder, you can use melted chocolate or carob powder as a substitute. Just make sure to adjust the quantities accordingly."
+      },
+      {
+        "input": "Can I use maple syrup instead of sugar in the cake batter?",
+        "output": "Yes, you can use maple syrup, but reduce the liquid in the recipe slightly since syrup adds more moisture. You will also need about 3/4 cup of maple syrup for every cup of sugar."
+      },
+      {
+        "input": "Can I use brown sugar instead of white sugar?",
+        "output": "Yes, you can substitute brown sugar for white sugar. Brown sugar adds a bit of molasses flavor, which can give the cake a richer taste. Use the same amount of brown sugar as white sugar in your recipe."
+      },
+      {
+        "input": "What can I use in place of vanilla extract?",
+        "output": "You can substitute vanilla extract with almond extract or lemon extract. You could also use a little maple syrup or honey for a different flavor."
+      },
+      {
+        "input": "Can I use self-raising flour instead of all-purpose flour?",
+        "output": "Yes, you can use self-raising flour, but you’ll need to adjust the leavening agents. Since self-raising flour already contains baking powder, you may need to reduce or eliminate the baking powder in your recipe."
+      },
+      {
+        "input": "What can I use instead of sour cream?",
+        "output": "You can substitute sour cream with Greek yogurt, buttermilk, or even a mixture of cream cheese and a little milk. These alternatives will give your cake a creamy texture."
+      },
+      {
+        "input": "Is there a substitute for heavy cream?",
+        "output": "You can use coconut cream, whipped coconut milk, or a mixture of milk and butter as a substitute for heavy cream. It will give a similar texture, though the flavor may vary."
+      },
+      {
+        "input": "Can I replace all-purpose flour with oat flour?",
+        "output": "Yes, oat flour can be used in place of all-purpose flour, but it’s more dense. You might need to add a bit more liquid to the recipe. Typically, use about 1.25 times the amount of oat flour for each cup of all-purpose flour."
+      },
+      {
+        "input": "Can I use coconut sugar instead of regular sugar?",
+        "output": "Yes, coconut sugar can replace regular sugar in most recipes. Use it in a 1:1 ratio. Just note that it may give a slight caramel-like flavor to your cake."
+      },
+      {
+        "input": "What can I use instead of cream cheese?",
+        "output": "You can use ricotta cheese, mascarpone cheese, or Greek yogurt as a substitute for cream cheese. They will provide a similar creamy texture."
+      },
+      {
+        "input": "Is there a non-dairy substitute for butter?",
+        "output": "Yes, you can use plant-based butters such as margarine, coconut oil, or even vegetable oil as a non-dairy butter substitute in cakes."
+      },
+      {
+        "input": "What can I use instead of yogurt?",
+        "output": "You can substitute yogurt with sour cream, buttermilk, or even a non-dairy option like coconut yogurt or almond yogurt."
+      },
+      {
+        "input": "Can I use cornstarch instead of flour?",
+        "output": "Yes, you can use cornstarch as a flour substitute, but it’s not a 1:1 ratio. Use about 2 tablespoons of cornstarch for every 1 tablespoon of flour. This will help thicken your batter."
+      },
+      {
+        "input": "What can I use instead of buttermilk?",
+        "output": "You can substitute buttermilk with a mixture of milk and vinegar or lemon juice. For every cup of buttermilk, use 1 cup of milk and 1 tablespoon of either vinegar or lemon juice."
+      },
+      {
+        "input": "Can I replace coconut flour with all-purpose flour?",
+        "output": "Coconut flour is highly absorbent, so it’s not a 1:1 substitute. You’ll need to use about 1/4 to 1/3 cup of coconut flour for every cup of all-purpose flour. You may also need to add extra liquid."
+      },
+      {
+        "input": "Can I substitute maple syrup for sugar?",
+        "output": "Yes, you can substitute maple syrup for sugar, but since it's liquid, reduce other liquids in the recipe. Use 3/4 cup of maple syrup for every cup of sugar and reduce the other liquids by about 3 tablespoons."
+      },
+      {
+        "input": "What can I use instead of baking powder?",
+        "output": "You can substitute baking powder with a combination of baking soda and cream of tartar. For each teaspoon of baking powder, use 1/4 teaspoon of baking soda and 1/2 teaspoon of cream of tartar."
+      },
+      {
+        "input": "Can I use almond butter instead of peanut butter?",
+        "output": "Yes, you can substitute almond butter for peanut butter. The flavor will be different but still delicious. It works well in cake recipes."
+      },
+      {
+        "input": "Can I use olive oil instead of vegetable oil?",
+        "output": "Yes, you can use olive oil in place of vegetable oil, but it may add a slight olive flavor. It works well in most cakes, especially in recipes that pair well with fruity or savory flavors."
+      },
+      {
+        "input": "What's the next step?",
+        "output": "Now that you've mixed the dry ingredients, it's time to combine the wet ingredients. Beat the eggs and mix them with the butter, milk, and vanilla extract."
+      },
+      {
+        "input": "What's the next step after mixing the flour?",
+        "output": "Next, you’ll need to fold in the wet ingredients gradually. Add the egg and butter mixture to the flour and mix until smooth."
+      },
+      {
+        "input": "What do I do after preheating the oven?",
+        "output": "After preheating the oven, grease and line your cake pan. Then, pour the prepared batter into the pan and get ready to bake."
+      },
+      {
+        "input": "What should I do after greasing the pan?",
+        "output": "After greasing the pan, sift the dry ingredients like flour and baking powder into a separate bowl. Once that's done, it's time to mix the wet ingredients."
+      },
+      {
+        "input": "What's the next step after mixing the ingredients?",
+        "output": "Now, pour the batter into the prepared cake pan. Smooth the top of the batter evenly before placing it in the oven to bake."
+      },
+      {
+        "input": "After I pour the batter into the pan, what's next?",
+        "output": "Now, it's time to bake! Place the pan into the preheated oven and bake for the recommended time (usually 25-30 minutes). You can check for doneness with a toothpick."
+      },
+      {
+        "input": "What’s the next step after adding the eggs?",
+        "output": "Once you've added the eggs, mix the ingredients thoroughly. Then, fold in the flour mixture little by little, ensuring it is well combined."
+      },
+      {
+        "input": "What should I do after adding the sugar?",
+        "output": "After adding the sugar, mix it with the butter and eggs. Once combined, slowly add the dry ingredients, alternating with any liquid ingredients like milk."
+      },
+      {
+        "input": "What's the next step after mixing everything?",
+        "output": "Once everything is mixed well, pour the batter into your greased cake pan and smooth the surface. Then, bake at the recommended temperature."
+      },
+      {
+        "input": "What should I do after the cake is baked?",
+        "output": "Once your cake is baked, remove it from the oven and let it cool in the pan for about 10 minutes. After that, transfer it to a wire rack to cool completely."
+      },
+      {
+        "input": "What do I do after baking the cake?",
+        "output": "Once your cake is baked, let it cool in the pan for a few minutes. Afterward, turn the pan upside down on a cooling rack to remove the cake."
+      },
+      {
+        "input": "After mixing the wet and dry ingredients, what should I do?",
+        "output": "Once the wet and dry ingredients are well combined, pour the batter into the prepared cake pan. Make sure to level the top before baking."
+      },
+      {
+        "input": "What should I do after preheating the oven to 350°F?",
+        "output": "After preheating the oven, grease and line the cake pan. Then, mix the dry ingredients, followed by the wet ingredients, and combine them together."
+      },
+      {
+        "input": "What should I do after greasing the cake pan?",
+        "output": "After greasing the cake pan, pour the prepared batter into the pan. Spread it evenly using a spatula, and then it’s ready for the oven."
+      },
+      {
+        "input": "What do I do after the cake is cooled?",
+        "output": "Once the cake has cooled completely, you can frost it or serve it as is. If you want to add a topping, like frosting or whipped cream, now is the time to do so."
+      },
+      {
+        "input": "What's the next step after mixing the sugar and butter?",
+        "output": "After mixing the sugar and butter, add the eggs one at a time, beating well after each addition. Then, add your flour and baking powder mixture."
+      },
+      {
+        "input": "What’s the next step after adding the dry ingredients?",
+        "output": "Once the dry ingredients are mixed in, slowly add your wet ingredients, like milk or cream. Stir the batter gently until smooth."
+      },
+      {
+        "input": "What should I do after the cake is in the oven?",
+        "output": "After placing the cake in the oven, set a timer for the recommended baking time. You can check for doneness by inserting a toothpick into the center. If it comes out clean, it’s ready!"
+      },
+      {
+        "input": "What do I do after mixing the flour, sugar, and eggs?",
+        "output": "After mixing the flour, sugar, and eggs, add the milk or any other liquid ingredients. Stir everything together until smooth, and then pour it into the pan to bake."
+      },
+      {
+        "input": "How do I make it for 10 people?",
+        "output": "For 10 people, you can multiply the ingredient quantities by 1.25. You may also want to use a 10-inch round pan instead of an 8-inch one, and increase the baking time by 5 minutes."
+      },
+      {
+        "input": "How can I make this recipe for 2 servings?",
+        "output": "For 2 servings, halve the ingredient quantities. You can use a smaller pan, like a 6-inch round pan, and reduce the baking time by about 5-10 minutes."
+      },
+      {
+        "input": "Can I make this for 16 people?",
+        "output": "To serve 16 people, double all the ingredients and bake in a larger 12-inch round cake pan. You might need to adjust the baking time by checking after 30 minutes."
+      },
+      {
+        "input": "How do I adjust the recipe for 4 people?",
+        "output": "For 4 people, use half the ingredients. You can use a smaller pan, like a 6-inch round pan, and reduce the baking time by 5-10 minutes."
+      },
+      {
+        "input": "What adjustments do I need to make for 8 people?",
+        "output": "For 8 people, you can double the ingredients. Use a 9-inch round pan and keep the baking time the same, but check it after 30 minutes."
+      },
+      {
+        "input": "Can I halve the recipe for just 2 servings?",
+        "output": "Yes, for 2 servings, halve the ingredient amounts and use a smaller pan like a 6-inch round pan. Reduce the baking time by 5-10 minutes."
+      },
+      {
+        "input": "How do I adjust for 12 servings?",
+        "output": "For 12 servings, multiply the ingredient quantities by 1.5. Use a 10-inch round pan and check the cake 5-10 minutes before the suggested baking time to avoid overbaking."
+      },
+      {
+        "input": "If I double the recipe, do I also double the baking time?",
+        "output": "Not necessarily. Doubling the ingredients might require a slightly longer baking time, but check the cake at the usual time and extend the baking if needed."
+      },
+      {
+        "input": "What if I want to make this for a smaller pan, say 6-inch round for 4 servings?",
+        "output": "For a 6-inch pan, reduce the ingredients by half, and keep a close eye on the cake. It might bake a little faster, so start checking 5-10 minutes earlier."
+      },
+      {
+        "input": "How do I adjust the recipe if I want to bake it in a loaf pan instead of a round pan?",
+        "output": "If using a loaf pan, make sure to adjust the baking time as it may take longer. Start with the original time, but check the cake in 5-minute intervals until a toothpick comes out clean."
+      },
+      {
+        "input": "Can I make this gluten-free?",
+        "output": "Yes, you can make this cake gluten-free! Substitute the all-purpose flour with a gluten-free baking blend, ideally one that includes xanthan gum to help with texture."
+      },
+      {
+        "input": "How do I make this recipe dairy-free?",
+        "output": "To make this dairy-free, you can use a plant-based milk like almond milk or oat milk instead of regular milk, and replace butter with coconut oil or vegan butter."
+      },
+      {
+        "input": "Can I make this without eggs?",
+        "output": "Yes! For egg-free options, you can use 1/4 cup unsweetened applesauce or mashed banana per egg, or try a commercial egg replacer."
+      },
+      {
+        "input": "Is there a way to reduce the sugar in this recipe?",
+        "output": "Certainly! You can reduce the sugar by 25-30%, though it may slightly affect the texture. Alternatively, try a sugar substitute like Stevia or erythritol."
+      },
+      {
+        "input": "How can I make this cake vegan?",
+        "output": "To make this cake vegan, replace eggs with flax eggs (1 tbsp ground flaxseed + 3 tbsp water per egg), use plant-based milk, and swap butter with vegan margarine or oil."
+      },
+      {
+        "input": "Can I use almond flour instead of regular flour?",
+        "output": "You can use almond flour, but it may alter the cake’s texture. You might need to add a bit more liquid, as almond flour can make the cake denser."
+      },
+      {
+        "input": "Can I make this with less fat?",
+        "output": "Yes, you can reduce fat by substituting some or all of the oil or butter with unsweetened applesauce, but it may make the cake slightly denser."
+      },
+      {
+        "input": "What if I want to make it sugar-free?",
+        "output": "For a sugar-free option, try using a sugar substitute like Maple Syrup or monk fruit. Just keep in mind it may slightly affect the texture and sweetness."
+      },
+      {
+        "input": "How do I make this nut-free?",
+        "output": "To make it nut-free, simply avoid using any nut-based ingredients, such as almond flour or nut milk. Use regular or oat milk instead."
+      },
+      {
+        "input": "Thank you!",
+        "output": "You're very welcome! Enjoy baking your cake! 😊"
+      },
+      {
+        "input": "Thanks a lot!",
+        "output": "My pleasure! Happy baking and let me know if you have any more questions!"
+      },
+      {
+        "input": "Thanks!",
+        "output": "Anytime! I hope your cake turns out delicious!"
+      },
+      {
+        "input": "Thanks for the help!",
+        "output": "Glad I could assist! Have fun baking and savor every bite!"
+      },
+      {
+        "input": "Thanks for the recipe!",
+        "output": "You're welcome! Hope you enjoy making and eating it! 🍰"
+      },
+      {
+        "input": "I appreciate it!",
+        "output": "Glad to help! Enjoy the process and let me know how it turns out!"
+      },
+      {
+        "input": "You’ve been very helpful!",
+        "output": "Happy to help! Wishing you success with your baking! Don't hesitate to reach out again."
+      },
+      {
+        "input": "Thank you for your time!",
+        "output": "Anytime! Hope your baking adventure is a sweet success!"
+      },
+      {
+        "input": "Thanks, that’s all I needed!",
+        "output": "Wonderful! Good luck, and remember, baking is as much fun as it is delicious!"
+      },
+      {
+        "input": "Goodbye!",
+        "output": "Goodbye and happy baking! Looking forward to our next chat!"
+      }
+
+  ]
+  
