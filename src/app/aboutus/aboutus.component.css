@@ -1,0 +1,99 @@
+/* Container styling */
+.about-intro, .about-mission {
+    margin: 2rem auto;
+    padding: 5rem;
+    max-width: 800px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #fff8f0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.8s ease-in-out;
+  }
+  
+  /* Headings styling */
+  h1, h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #4A0404;
+    margin-bottom: 1rem;
+    position: relative;
+  }
+  
+  h1::after, h2::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #4A0404;
+    margin: 0.5rem auto;
+    border-radius: 4px;
+    animation: expandLine 0.5s ease-in-out;
+  }
+  
+  /* Paragraph styling */
+  .about-intro p, .about-mission p {
+    color: #4A0404;
+    font-size: 1rem;
+    line-height: 1.8;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 0.5rem;
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+  
+  @keyframes expandLine {
+    0% { width: 0; }
+    100% { width: 60px; }
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 768px) {
+    .about-intro, .about-mission {
+      padding: 1rem;
+    }
+    
+    h1, h2 {
+      font-size: 1.5rem;
+    }
+    
+    .about-intro p, .about-mission p {
+      font-size: 0.95rem;
+    }
+  }
+    
+  .team {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+  
+  .team-members {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  .member {
+    width: 200px;
+    text-align: center;
+  }
+  
+  .member img {
+    width: 100%;
+    border-radius: 50%;
+  }
+  
+  .member h3 {
+    margin: 0.2rem 0 0.2rem;
+    color: #4A0404;
+  }
+  
+  .member p {
+    color: #777;
+    font-size: 0.9rem;
+  }
+  

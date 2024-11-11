@@ -1,0 +1,159 @@
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+/* Container styling */
+.home-container {
+  width: 100%;
+  padding-top: 70px; /* To account for fixed navbar spacing */
+}
+
+/* Intro Section */
+.intro {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #fff3e0;
+}
+
+.intro h1 {
+  color: #4A0404;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.intro p {
+  font-size: 1.2rem;
+  color: #333;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Carousel Section */
+.cake-carousel {
+  margin: 30px auto;
+  max-width: 50%;
+}
+
+.carousel-inner {
+  max-height: 500px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+/* Carousel Section */
+.carousel-item img {
+  width: 100%;
+  height: 400px; /* Fixed height */
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .intro h1 {
+    font-size: 2rem;
+  }
+  .intro p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel-inner {
+    max-height: 300px;
+  }
+}
+
+/* Recipes Section */
+.recipes {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+}
+
+.recipes h2 {
+  font-size: 30px;
+  color: #4A0404;
+  margin-bottom: 30px;
+}
+
+/* Recipe List */
+.recipe-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  padding: 0 10px;
+}
+
+/* Recipe Card */
+.recipe-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 30%;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Ensure content is spaced properly */
+  height: 380px; /* Fixed height to prevent layout shift */
+}
+
+.recipe-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.recipe-card h3 {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.recipe-card p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.5;
+}
+
+/* Hover Effect */
+.recipe-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+  .recipe-card {
+    width: 45%; /* Adjust recipe card width for tablet screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .recipe-card {
+    width: 100%; /* Stack recipe cards for smaller screens */
+  }
+
+  .recipe-list {
+    flex-direction: column; /* Stack cards vertically */
+    gap: 15px;
+  }
+}
+

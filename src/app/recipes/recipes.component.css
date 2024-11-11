@@ -1,0 +1,68 @@
+/* General card layout */
+.row{
+  padding-top: 70px;
+}
+.card {
+  margin-top: 1rem;
+  border: 2px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds shadow to cards */
+  margin-bottom: 2rem; /* Adds space between rows of cards */
+  border-radius: 8px; /* Rounds the corners of the cards */
+  overflow: hidden; /* Keeps image within the card bounds */
+}
+
+/* Image adjustments */
+.card-img-top {
+  width: 100%; /* Full width of the card */
+  height: 300px; /* Fixed height for uniformity */
+  object-fit: contain; /* Ensures the image fills the card without distortion */
+  border-bottom: 1px solid #ddd; /* Divider line below the image */
+}
+
+/* Card body styling */
+.card-body {
+  padding: 1.5rem; /* Adds padding around text content */
+  text-align: center;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #4A0404;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+/* Button styling */
+.btn-primary {
+  background-color: #4A0404;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Space between columns */
+.row .col-sm-6 {
+  padding: 0 1rem; /* Horizontal padding between columns */
+}
+
+/* Responsive layout */
+@media (max-width: 576px) {
+  .col-sm-6 {
+    flex: 0 0 100%; /* Stack cards on small screens */
+    max-width: 100%;
+  }
+}
